@@ -9,36 +9,81 @@
   body {
     padding: 20px;
     font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
+    background: #272E36;
+  }
+  h2 {
+    color: #525F6B;
   }
   a {
+    position: relative;
     text-decoration: none;
+    color: #43A5A4;
+  }
+  a:hover {
+    color: #43A5A4;
+  }
+  a:hover img {
+    opacity: 0.5;
+  }
+  a span {
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 90px;
+    text-align: center;
+    transition: opacity 0.1s ease-in-out, bottom 0.1s ease-in-out;
+  }
+  a:hover span {
+    opacity: 1;
+    bottom: 80px;
   }
   img {
     width: 200px;
     height: 200px;
   }
-
 </style>
 <h2>Top</h2>
-<a href="parts/top/base.svg">
+<a href="parts/top/base.svg" download>
   <img src="parts/top/base.svg" />
+  <span><i class="ion-arrow-down-a"></i> download .svg</span>
 </a>
-<a href="parts/top/circle.svg">
+<a href="parts/top/circle.svg" download>
   <img src="parts/top/circle.svg" />
+  <span><i class="ion-arrow-down-a"></i> download .svg</span>
 </a>
-<a href="parts/top/tubes.svg">
+<a href="parts/top/tubes.svg" download>
   <img src="parts/top/tubes.svg" />
+  <span><i class="ion-arrow-down-a"></i> download .svg</span>
 </a>
 
 <h2>Bottom</h2>
-<img src="parts/bottom/base.svg" />
-<img src="parts/bottom/flat.svg" />
-<img src="parts/bottom/grid.svg" />
-<img src="parts/bottom/base-half.svg" />
+<a href="parts/bottom/base.svg" download>
+  <img src="parts/bottom/base.svg" />
+  <span><i class="ion-arrow-down-a"></i> download .svg</span>
+</a>
+<a href="parts/bottom/flat.svg" download>
+  <img src="parts/bottom/flat.svg" />
+  <span><i class="ion-arrow-down-a"></i> download .svg</span>
+</a>
+<a href="parts/bottom/grid.svg" download>
+  <img src="parts/bottom/grid.svg" />
+  <span><i class="ion-arrow-down-a"></i> download .svg</span>
+</a>
+<a href="parts/bottom/base-half.svg" download>
+  <img src="parts/bottom/base-half.svg" />
+  <span><i class="ion-arrow-down-a"></i> download .svg</span>
+</a>
 
 <h2>Side</h2>
-<img src="parts/side/base-18.svg" />
-<img src="parts/side/flat-18.svg" />
+<a href="parts/bottom/base-18.svg" download>
+  <img src="parts/side/base-18.svg" />
+  <span><i class="ion-arrow-down-a"></i> download .svg</span>
+</a>
+<a href="parts/bottom/flat-18.svg" download>
+  <img src="parts/side/flat-18.svg" />
+  <span><i class="ion-arrow-down-a"></i> download .svg</span>
+</a>
 </body>
 </html>
 
