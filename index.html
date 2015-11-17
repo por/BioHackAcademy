@@ -10,17 +10,21 @@
     padding: 20px;
     font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
     background: #272E36;
+    text-align: center;
+    color: #CFD6E4;
   }
   h2 {
-    color: #525F6B;
+    color: #5183C3;
+    margin-top: 4em;
   }
   a {
+    margin: 10px;
     position: relative;
     text-decoration: none;
-    color: #43A5A4;
+    color: #87BF80;
   }
   a:hover {
-    color: #43A5A4;
+    color: #87BF80;
   }
   a:hover img {
     opacity: 0.5;
@@ -38,11 +42,39 @@
     opacity: 1;
     bottom: 80px;
   }
-  img {
+  a img {
     width: 200px;
     height: 200px;
   }
+  p {
+    margin: 1em auto;
+    max-width: 640px;
+  }
+  p > a {
+    text-decoration: underline;
+    color: #969CAC;
+    margin: 0;
+  }
+  p > a:hover {
+    color: #969CAC;
+    opacity: 0.84;
+  }
+  .footer {
+    max-width: 100%;
+    margin: 6em auto;
+    font-size: 12px;
+  }
 </style>
+<h1>
+  <img src="images/logo.svg" alt="Biotes" />
+</h1>
+
+<p>Biotes is an abbreviation of Biology and <a href="https://en.wikipedia.org/wiki/Patterns_in_nature#Tessellations">Tessellations</a>. It is a very small library to help get started with DIY bio hardware projects. You can compare it to LEGO, but for lasercutting. It was created out of the frustration that bio hardware often looks like a collection of boring boxes.</p>
+
+<p>The idea is that you download individual parts and customise them. Because the base dimensions stay fixed, multiple hardware projects will fit together nicely and will form a coherent bond like a honeycomb structure. Besides that, parts can easily be reused for a new project.</p>
+
+<p>The fixed dimensions will sometimes force you to think about building things in a new way, which can lead to interesting solutions. Below are some parts to get you started.</p>
+
 <h2>Top</h2>
 <a href="parts/top/base.svg" download>
   <img src="parts/top/base.svg" />
@@ -84,7 +116,12 @@
   <img src="parts/side/flat-18.svg" />
   <span><i class="ion-arrow-down-a"></i> download .svg</span>
 </a>
+<a href="parts/bottom/base-40.svg" download>
+  <img src="parts/side/base-40.svg" />
+  <span><i class="ion-arrow-down-a"></i> download .svg</span>
+</a>
+<p class="footer">
+  Created as part of the <a href="biohackacademy.github.io/bha2/">Bio Hack Academy</a> by <a href="http://timbormans.com/">Tim Bormans</a> under a <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons BY licence</a>.
+</p>
 </body>
 </html>
-
-
